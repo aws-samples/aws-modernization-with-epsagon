@@ -14,7 +14,7 @@ aws cloudformation create-stack --stack-name MY-Workshop --template-body file://
 
 ### 2. Edit and deploy the pipeline in pipeline.yaml.  
 
-In this one you will probably want to change the first 5 parameters.  ProjectName should match whatever you put for WorkshopHostname in the cloudfront-s3-website.yaml. Set the `CloudFrontDistroId` to the distribution ID generated from the first stack.
+In this one you will probably want to change the first 6 parameters.  ProjectName should match whatever you put for WorkshopHostname in the cloudfront-s3-website.yaml. Set the `CloudFrontDistroId` to the distribution ID generated from the first stack.
 
 > Stack completes in about 1-2 minutes  
 ```
