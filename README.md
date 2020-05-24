@@ -1,7 +1,7 @@
 
 
-# AWS modernization with Epsagon 
+# AWSWorkshop.io base workshop prereqs 
 
-Learn how to modernize with Epsagon
+This is a base workshop that other workshops can reference for new account creation, VPC, and Cloud9 environment setup.
 
 
