@@ -1,7 +1,7 @@
+# AWS modernization with Epsagon
 
+![Epsagon](static/images/welcome/epsagon-workshop.jpg)
 
-# AWSWorkshop.io base workshop prereqs 
+Welcome to the AWS Serverless with Epsagon workshop! In this workshop, you’ll learn how to gain observability into your serverless application using a built retail store. You’ll learn the key concepts of monitoring and troubleshooting applications using Epsagon. Have fun!
 
-This is a base workshop that other workshops can reference for new account creation, VPC, and Cloud9 environment setup.
-
-
+![Architecture](static/images/welcome/architecture.png)
