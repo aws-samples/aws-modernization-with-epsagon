@@ -1,20 +1,29 @@
 ---
-title: "AWS Modernization Workshop with Epsagon"
+title: "Observability with Epsagon"
 chapter: true
 weight: 1
 ---
 
-# AWS Modernization Workshop with Epsagon
+# AWS Modernization Workshop: Observability with Epsagon
 
-### Welcome
+![Epsagon and AWS](/images/welcome/epsagon-workshop.jpg)
 
-In this workshop you will learn why DevOps is a pattern for modernization and how to use patterns to release features and functionality at a faster pace.
+### Welcome :wave:
+Welcome to the AWS Serverless with Epsagon workshop! In this workshop, you'll learn how to gain observability into your serverless application using a built retail store. 
+You'll learn the key concepts of monitoring and troubleshooting applications using Epsagon.
+Have fun!
 
-### Learning Objectives
-- Deploy Cloud9 as an IDE for completing workshop exercises.
-- How DevOps patterns help to release features and functionality faster.
-- Best practices for implementing 2 pizza team pipelines.
-- Setup your account for Epsagon
+### Objectives
+- Deploy a fully working serverless retail store, including frontend and backend.
+- Setup and connect the application to Epsagon.
+- Troubleshoot some real-life scenarios using Epsagon's distributed tracing.
+- Monitor the health of the application with simple visualizations.
+- Learn how to tag traces for pinpoint and aggregation.
+
+### Sample reference architecture
+The following application includes both the frontend which stored as a static website on S3, and the backend that built on multiple services, resources, and functions:
+
+![Architecture](/images/welcome/architecture.png)
 
 {{% notice warning %}}
 <p style='text-align: left;'>
