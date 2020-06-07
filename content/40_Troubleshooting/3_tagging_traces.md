@@ -44,7 +44,7 @@ Once it's done, let's revisit our retail store, and create another order:
 
 ![Confirmation](/images/troubleshooting/confirmation.png)
 
-Like the previous step, we know that there's a problem here. Assuming this user reach our support and provide us with his email or order ID, we would like to pinpoint his exact traces. Let's head to the traces search screen in epsagon, and in the filters, type `order_id=835f95a3-8290-4577-a1b3-d56ddba7276f`:
+Like the previous step, we know that there's a problem here. Assuming this user reach our support and provide us with his email or order ID, we would like to pinpoint his exact traces. Let's head to the [traces search](https://dashboard.epsagon.com/search) screen in Epsagon, and select the filter `custom_labels.order_id`, and in the type `835f95a3-8290-4577-a1b3-d56ddba7276f`:
 
 ![Search](/images/troubleshooting/search.png)
 
