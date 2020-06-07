@@ -14,7 +14,7 @@ Let head to Epsagon, to see the functions table, while we filter it only to "cat
 
 ![Functions](/images/troubleshooting/functions.png)
 
-We can see we already got an error on `get-items` function, so let's click on it and further investigate it:
+We can see we already got an error on `catalog-shop-dev-get-items` function, so let's click on it and further investigate it:
 
 ![Function](/images/troubleshooting/function.png)
 
@@ -36,11 +36,12 @@ Let's go back to `backend/serverless.yml`, and uncomment lines 28-38:
 
 ![Code](/images/troubleshooting/code.png)
 
-Now let's hit
+Now let's hit:
 ```bash
-sls deploy
+sls deploy --region <REGION>
 ```
 
+Make sure to use the same region as before.
 Once done, Let's revisit our retail store again, and it works!
 
 ![Retail store](/images/troubleshooting/website.png)

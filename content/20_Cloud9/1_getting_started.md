@@ -20,7 +20,7 @@ Your Cloud9 environment will have access to the same AWS resources as the user w
 
 2. Select **Create environment**.
 
-3. Enter `wildrydes-webapp-development` into **Name** and optionally provide a **Description**.
+3. Enter `epsagon-development` into **Name** and optionally provide a **Description**.
 
 ![Step 5](/images/getting_started/c9-step5.png)
 

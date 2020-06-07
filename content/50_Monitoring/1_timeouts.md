@@ -12,9 +12,10 @@ Being aware of such issues is crucial, so let's have an example of a timeout iss
 
 To create a timeout on our store, let's increase the number of items in stock from 4 to 17 by running update_db.py script in the backend folder:
 ```bash
-python update_db.py 17
+python update_db.py 17 <REGION>
 ```
 
+Make sure to use the same region as before.
 Let's revisit our retail store now. We can see that the loader is stuck again, but why?
 
 Let's get back again to to `catalog-shop-dev-get-items` to understand what happened:

@@ -10,7 +10,7 @@ Observing application performance for a long period, and visualizing such comple
 
 Luckily at Epsagon, it automatically generates service maps, that allows understanding the dependencies between resources, errors, and performance breakdowns.
 
-Head to the service map screen in Epsagon, and click on `get-items` Lambda function:
+Head to the service map screen in Epsagon, and click on `catalog-shop-dev-get-items` Lambda function:
 
 ![Service map](/images/monitoring/service_map.png)
 

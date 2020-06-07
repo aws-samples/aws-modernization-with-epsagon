@@ -30,13 +30,16 @@ epsagon.label('order_email', buyer_email)
 epsagon.label('order_id', order_id)
 ```
 
+So it looks like the following:
+
 ![Tag](/images/troubleshooting/tag.png)
 
 Now let's re-deploy again using:
 ```bash
-sls deploy
+sls deploy --region <REGION>
 ```
 
+Make sure to use the same region as before.
 Once it's done, let's revisit our retail store, and create another order:
 
 ![Confirmation](/images/troubleshooting/confirmation.png)
