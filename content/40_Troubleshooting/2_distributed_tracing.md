@@ -16,7 +16,7 @@ For a credit card, you can use 4242 4242 4242 4242 with any date and CVC.
 
 You are now a pleased owner of a new item, and you also got a confirmation ID, but no email has arrived. It seems like are going to troubleshoot our problem again.
 
-Let head back to the functions screen, and now we can see that under `order-fullfilment` we have a problem:
+Let head back to the functions screen, and now we can see that under `catalog-shop-dev-order-fullfilment` we have a problem:
 
 ![Functions](/images/troubleshooting/functions_2.png)
 

@@ -18,17 +18,19 @@ In this section, we are going to deploy the retail store to your account using t
 Let start first with cloning the repository:
 
 ```bash
-git clone git@github.com:epsagon/retail-store-workshop.git
+git clone https://github.com/epsagon/retail-store-workshop.git
 cd retail-store-workshop
 ```
 
 ### Backend
 
+To deploy run the following commands. Make sure to replace `<REGION>` with your desired region. In our example we are using `eu-west-1`.
+
 ```bash
 cd backend
 npm install
 npm install -g serverless
-sls deploy
+sls deploy --region <REGION>
 ```
 
 Upon successful deployment, we can see the following output:
@@ -39,10 +41,10 @@ Make sure to copy the endpoint, because we can use it soon.
 
 Now let's create some items in our stock:
 ```bash
-python update_db.py 4
+python update_db.py 4 <REGION>
 ```
 
-`update_db.py` script puts items (in this case 4) into our DynamoDB.
+`update_db.py` script puts items (in this case 4) into our DynamoDB. Make sure to use the same region as before.
 
 ### Frontend
 
