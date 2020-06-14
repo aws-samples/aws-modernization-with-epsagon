@@ -5,7 +5,7 @@ weight = 1
 +++
 
 {{% notice note %}}
-Make sure you have [Python](https://www.python.org/), [git](https://git-scm.com/), and [npm](https://www.npmjs.com/get-npm) installed on your host.
+Make sure you have [Python](https://www.python.org/), [git](https://git-scm.com/), and [npm](https://www.npmjs.com/get-npm) installed on your host. If you're using Cloud9 environment everything is already installed.
 {{% /notice %}}
 
 ## Deploying the retail store
@@ -50,8 +50,8 @@ python update_db.py 4 <REGION>
 
 ```bash
 cd ../frontend
+npm install -g yarn scottyjs
 yarn install
-npm install -g scottyjs
 ```
 
 Now, let's copy the endpoint to the file `frontend/src/config.js`:
@@ -62,6 +62,10 @@ Now we can deploy our frontend:
 ```bash
 npm run deploy <BUCKET_NAME>
 ```
+
+{{% notice note %}}
+Note: This is a public bucket to host the static website. This name must be unique.
+{{% /notice %}}
 
 Instead of `<BUCKET_NAME>` choose a unique name for the S3 bucket that will be created for the website. It can be any name! In the example, we are using `observability-workshop-ranrib`.
 
