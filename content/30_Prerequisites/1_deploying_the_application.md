@@ -58,6 +58,8 @@ Now, let's copy the endpoint to the file `frontend/src/config.js`:
 
 ![Update config](/images/prerequisites/configjs.png)
 
+Make sure to change only to hostname part, and leave the string ending with `/dev`.
+
 Now we can deploy our frontend:
 ```bash
 npm run deploy <BUCKET_NAME>
