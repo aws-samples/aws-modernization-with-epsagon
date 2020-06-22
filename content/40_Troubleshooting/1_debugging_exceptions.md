@@ -10,7 +10,7 @@ If you recall, we just had our website live, but we had a "stuck loader" that ne
 
 Investigating such a complex environment requires a right way to overview and surface problems.
 
-Let head to Epsagon, to see the functions table, while we filter it only to "catalog" functions:
+Let's head to Epsagon, to see the [functions table](https://dashboard.epsagon.com/functions?sortBy%3Dinvocations%26sortDirection%3DASC%26selectedSearchTags%255B0%255D%3Dcatalog%26timeFrame%3D1h), while we filter it only to "catalog" functions:
 
 ![Functions](/images/troubleshooting/functions.png)
 
@@ -36,7 +36,14 @@ Let's go back to `backend/serverless.yml`, and uncomment lines 28-38:
 
 ![Code](/images/troubleshooting/code.png)
 
-Now let's hit:
+![Code](/images/troubleshooting/code_comment.png)
+
+Make sure you're on the backend directory:
+```bash
+cd ../backend
+```
+
+Now let's deploy our application again:
 ```bash
 sls deploy --region <REGION>
 ```

@@ -58,10 +58,16 @@ Now, let's copy the endpoint to the file `frontend/src/config.js`:
 
 ![Update config](/images/prerequisites/configjs.png)
 
+Make sure to change only to hostname part, and leave the string ending with `/dev`.
+
 Now we can deploy our frontend:
 ```bash
 npm run deploy <BUCKET_NAME>
 ```
+
+If requested, select the region as the same `<REGION>` you've used before:
+
+![Scotty](/images/prerequisites/scotty_region.png)
 
 {{% notice note %}}
 Note: This is a public bucket to host the static website. This name must be unique.
