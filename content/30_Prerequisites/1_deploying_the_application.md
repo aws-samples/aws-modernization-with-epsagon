@@ -63,6 +63,10 @@ Now we can deploy our frontend:
 npm run deploy <BUCKET_NAME>
 ```
 
+If requested, select the region as the same `<REGION>` you've used before:
+
+![Scotty](/images/prerequisites/scotty_region.png)
+
 {{% notice note %}}
 Note: This is a public bucket to host the static website. This name must be unique.
 {{% /notice %}}

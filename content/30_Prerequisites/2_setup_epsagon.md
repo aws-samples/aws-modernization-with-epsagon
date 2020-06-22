@@ -20,11 +20,27 @@ If you need any help with or throughout the setup, you can use the [documentatio
 
 Once you signup, you can fill your personal details.
 
+## Signup and details
+
+Go ahead to Epsagon, sign up and fill in your details:
+
+![Signup](/images/prerequisites/signup.png)
+
+![Details](/images/prerequisites/details.png)
+
 ## Integrating your AWS account
 
-The integration is straightforward, select the AWS integration, and click on "Deploy CloudFormation Stack":
+The integration is straightforward, select the AWS integration, and click on "Integrate AWS":
 
 ![CloudFormation](/images/prerequisites/cf.png)
+
+Clicking the button will open a wizard on AWS. Select the box and click create stack:
+
+![CloudFormation](/images/prerequisites/cf_aws.png)
+
+After a minute, the stack creation should be completed, you can head back to Epsagon and see the step is completed:
+
+![CloudFormation](/images/prerequisites/cf_complete.png)
 
 If you need more details on this step, you can read more in the [documentation](https://docs.epsagon.com/docs/getting-started-aws).
 
@@ -34,4 +50,10 @@ Epsagon provides an automated tracing library that allows you to gain visibility
 
 ![Trace](/images/prerequisites/trace.png)
 
-And select the retail store functions.
+Or if it is already open, select the four functions that starts with `catalog-shop`, and click auto-trace:
+
+![Trace](/images/prerequisites/tracing.png)
+
+To complete the wizard, let refresh the retail page a few more time (it will generate traces, which will help us to complete the wizard):
+
+![Complete](/images/prerequisites/complete.png)
