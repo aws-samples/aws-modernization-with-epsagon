@@ -71,6 +71,7 @@ If requested, select the region as the same `<REGION>` you've used before:
 
 {{% notice note %}}
 Note: This is a public bucket to host the static website. This name must be unique.
+If you encounter an Access Denied error, please note that it is mandatory to have permissions to create a public S3 Bucket.
 {{% /notice %}}
 
 Instead of `<BUCKET_NAME>` choose a unique name for the S3 bucket that will be created for the website. It can be any name! In the example, we are using `observability-workshop-ranrib`.
