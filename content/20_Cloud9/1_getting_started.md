@@ -12,6 +12,12 @@ Your Cloud9 environment will have access to the same AWS resources as the user w
 
 **Cloud9 works best with Chrome or Firefox, not Safari. It cannot be used from a tablet.**
 
+
+### :star: Make sure to set up your Cloud9 setup in us-east-1 (North Virginia) region only!
+
+
+
+
 **:white_check_mark: Step-by-step Instructions**
 
 1. From the AWS Management Console, Select **Services** then select **Cloud9** under Developer Tools. 
@@ -28,6 +34,7 @@ Your Cloud9 environment will have access to the same AWS resources as the user w
 
 5. In **Environment settings**:
 - Set the *Instance type* to **t2.micro (1 GiB RAM + 1 vCPU)**.
+- Set the *Platform* to **Amazon Linux 2**.
 - Leave all other defaults unchanged.
 
 ![Step 6](/images/getting_started/c9-step6-b.png)

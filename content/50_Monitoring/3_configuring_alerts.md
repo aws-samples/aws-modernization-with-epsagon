@@ -12,7 +12,9 @@ Let's set our first alert, by getting into the alerts screen, and click "create 
 
 ![Alerts](/images/monitoring/alerts.png)
 
+{{% notice note %}}
 Make sure to select all 4 functions that start with "catalog-shop-dev-", and use your real email - because we are going to get a real alert!
+{{% /notice %}}
 
 To get an alert, let's browse our retail store to create some errors (timeouts or exceptions).
 

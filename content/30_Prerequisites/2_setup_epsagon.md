@@ -24,6 +24,10 @@ Once you signup, you can fill your personal details.
 
 Go ahead to Epsagon, sign up and fill in your details:
 
+{{% notice warning %}}
+If you've used Epsagon in the past, please make sure to sign up with a NEW account.
+{{% /notice %}}
+
 ![Signup](/images/prerequisites/signup.png)
 
 ![Details](/images/prerequisites/details.png)
@@ -54,6 +58,8 @@ Or if it is already open, select the four functions that starts with `catalog-sh
 
 ![Trace](/images/prerequisites/tracing.png)
 
-To complete the wizard, let refresh the retail page a few more time (it will generate traces, which will help us to complete the wizard):
+To complete the wizard, let refresh our retail store page a few more time (it will generate traces, which will help us to complete the wizard):
 
 ![Complete](/images/prerequisites/complete.png)
+
+Click on view trace button to get into the dashboard.

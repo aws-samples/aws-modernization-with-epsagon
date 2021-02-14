@@ -28,6 +28,7 @@ To deploy run the following commands. Make sure to replace `<REGION>` with your 
 
 ```bash
 cd backend
+sudo pip3 install boto3
 npm install
 npm install -g serverless
 sls deploy --region <REGION>
@@ -62,19 +63,19 @@ Make sure to change only to hostname part, and leave the string ending with `/de
 
 Now we can deploy our frontend:
 ```bash
-npm run deploy <BUCKET_NAME>
+npm run build
+scotty --nocdn --spa --source ./build -b <BUCKET_NAME> -r <REGION>
 ```
 
-If requested, select the region as the same `<REGION>` you've used before:
+Instead of `<BUCKET_NAME>` choose a unique name for the S3 bucket that will be created for the website. It can be any name! In the example, we are using `observability-workshop-ranrib`.
 
-![Scotty](/images/prerequisites/scotty_region.png)
+Type in the region as the same `<REGION>` you've used before
 
 {{% notice note %}}
 Note: This is a public bucket to host the static website. This name must be unique.
 If you encounter an Access Denied error, please note that it is mandatory to have permissions to create a public S3 Bucket.
 {{% /notice %}}
 
-Instead of `<BUCKET_NAME>` choose a unique name for the S3 bucket that will be created for the website. It can be any name! In the example, we are using `observability-workshop-ranrib`.
 
 ![Frontend deployed](/images/prerequisites/frontend_deployed.png)
 
