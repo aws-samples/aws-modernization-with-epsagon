@@ -12,6 +12,11 @@ Now that our retail store is up and running, let's order something. To do that, 
 For a credit card, you can use 4242 4242 4242 4242 with any date and CVC.
 {{% /notice %}}
 
+{{% notice note %}}
+Make sure to use your REAL email - because we are expected to get an update!
+{{% /notice %}}
+
+
 ![Order](/images/troubleshooting/order.png)
 
 You are now a pleased owner of a new item, and you also got a confirmation ID, but no email has arrived. It seems like we are going to troubleshoot our problem again.
